@@ -5,10 +5,10 @@ export default function Home() {
   return (
     <>
       <main>
-        <ThemeProvider>
+        <ThemeProvider enableSystem={true} attribute="class">
           <Navbar />
-          <h1 className="text-2xl">My Portfolio</h1>
         </ThemeProvider>
+        <h1 className="text-2xl">My Portfolio</h1>
       </main>
     </>
   );
